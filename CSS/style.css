@@ -6,7 +6,6 @@
     list-style-type: none;
     text-decoration: none;}
 
-
 html,body{
     margin-top: 3rem;
     position: relative;
@@ -49,8 +48,7 @@ nav li{
 nav ul::before{
     content: "";
     display: table;
-    clear: both;
-    }
+    clear: both;}
 /* Fin du header */
 
 /* Début du main */
@@ -63,20 +61,22 @@ h1{
     text-align: center;
     margin-bottom: 1rem;}
 
+    /* Début du bloc d'images */
 section{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction  row;
-    justify-content: center;}
-section article img{
-    width: calc(100% - 40px);
-    border: solid 1px;}
+    flex-direction: row;
+    justify-content: space-between;}
+section article{
+    width: calc(33% - .2rem)}
+section img{
+    width: 100%;}
 section p{
     width: 50%;
     margin: auto;
     margin-bottom: 2rem;
     text-transform: uppercase;
     text-align: center;
-    font-weight: bolder;
-    border: solid 1px;}
+    font-weight: bolder;}
+    /* Fin du bloc d'images */
