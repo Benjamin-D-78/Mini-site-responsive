@@ -63,14 +63,16 @@ h1{
     text-align: center;
     margin-bottom: 1rem;}
 
-.destinations{
+section{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    flex-direction  row;
     justify-content: center;}
-.destinations img{
-    width: 50%;
+section article img{
+    width: calc(100% - 40px);
     border: solid 1px;}
-.destinations p{
+section p{
     width: 50%;
     margin: auto;
     margin-bottom: 2rem;
