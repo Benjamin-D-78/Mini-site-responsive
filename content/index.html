@@ -6,40 +6,36 @@
     <meta name="author" content="Benjamin D.">
     <meta name="description" content="Petite création web responsive destinée à une visibilité publique sur GitHub">
 
-    <!-- Deux fichiers CSS, afin de réduire le temps de traitement :
-        - Un pour les commandes globales répercutées sur toutes les pages ;
-        - Un pour les éléments de détails. -->
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/details.css">
+    <link rel="stylesheet" href="../content/css/style.css">
 
     <title>Mini site</title>
 
 </head>
 <body>
     <header>
-        <a href="index.html" class="logo">
-            <img src="../space-travel/img/logo-w.png" alt="Logo de l'entreprise 'Mini site'">
+        <a href="index.html" class="logo underline-none-link">
+            <img src="../spacetravel/img/logo-w.png" alt="Logo de l'entreprise 'Mini site'">
             <p>Mini-site</p>
         </a>
             <div>
-            <nav>
+            <!-- <nav>
                 <ul>
                     <li><a href="#">Accueil</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-            </nav>
+            </nav> -->
             </div>
     </header>
     <main>
-        <h1>Votre prochaine destination</h1>
+        <h1>Gestion de Media Query</h1>
         <section>
         <article>
             <figure>
                 <picture>
-                    <source srcset="../space-travel/img/blog/embarquement.jpg" media="(min-width:1024px)">
-                    <source srcset="../space-travel/img/blog/middle/VaisseauGrandCourier.jpg" media="(min-width:768px)">
-                    <img src="../space-travel/img/blog/mini/alexey-pyatov-mary-celeste.jpg" alt="">
+                    <source srcset="../spacetravel/img/blog/Galaxie.jpg" media="(min-width:1024px)">
+                    <source srcset="../spacetravel/img/blog/middle/VaisseauGrandCourier.jpg" media="(min-width:768px)">
+                    <img src="../spacetravel/img/blog/mini/alexey-pyatov-mary-celeste.jpg" alt="">
                     <p>Mars</p>
                 </picture>
             </figure>
@@ -47,9 +43,9 @@
         <article>
             <figure>
                 <picture>
-                    <source srcset="../space-travel/img/blog/VaisseauGrandCourier.jpg" media="(min-width:1024px)">
-                    <source srcset="../space-travel/img/blog/middle/ceinture-d'astéroïdes.jpg" media="(min-width:768px)">
-                    <img src="../space-travel/img/blog/mini/alexey-pyatov-station.jpg" alt="">
+                    <source srcset="../spacetravel/img/blog/embarquement.jpg" media="(min-width:1024px)">
+                    <source srcset="../spacetravel/img/blog/middle/Navette.jpg" media="(min-width:768px)">
+                    <img src="../spacetravel/img/blog/mini/alexey-pyatov-station.jpg" alt="">
                     <p>Saturne</p>
                 </picture>
             </figure>
@@ -57,9 +53,9 @@
         <article>
             <figure>
                 <picture>
-                    <source srcset="../space-travel/img/blog/ceinture-d'astéroïdes.jpg" media="(min-width:1024px)">
-                    <source srcset="../space-travel/img/blog/middle/Navette.jpg" media="(min-width:768px)">
-                    <img src="../space-travel/img/blog/mini/Cabine.jpg" alt="">
+                    <source srcset="../spacetravel/img/blog/CiteGlass.jpg" media="(min-width:1024px)">
+                    <source srcset="../spacetravel/img/blog/middle/Navette.jpg" media="(min-width:768px)">
+                    <img src="../spacetravel/img/blog/mini/Cabine.jpg" alt="">
                     <p>Vénus</p>
                 </picture>
             </figure>
@@ -67,9 +63,9 @@
         <article>
             <figure>
                 <picture>
-                    <source srcset="../space-travel/img/blog/Cabine.jpg" media="(min-width:1024px)">
-                    <source srcset="../space-travel/img/blog/middle/Galaxie.jpg" media="(min-width:768px)">
-                    <img src="../space-travel/img/blog/mini/ceinture-d'astéroïdes.jpg" alt="">
+                    <source srcset="../spacetravel/img/blog/Cabine.jpg" media="(min-width:1024px)">
+                    <source srcset="../spacetravel/img/blog/middle/Galaxie.jpg" media="(min-width:768px)">
+                    <img src="../spacetravel/img/blog/mini/ceinture-d'astéroïdes.jpg" alt="">
                     <p>Jupiter</p>
                 </picture>
             </figure>
@@ -77,9 +73,9 @@
         <article>
             <figure>
                 <picture>
-                    <source srcset="../space-travel/img/blog/alexey-pyatov-station.jpg" media="(min-width:1024px)">
-                    <source srcset="../space-travel/img/blog/middle/embarquement.jpg" media="(min-width:768px)">
-                    <img src="../space-travel/img/blog/mini/CiteGlass.jpg" alt="">
+                    <source srcset="../spacetravel/img/blog/alexey-pyatov-station.jpg" media="(min-width:1024px)">
+                    <source srcset="../spacetravel/img/blog/middle/embarquement.jpg" media="(min-width:768px)">
+                    <img src="../spacetravel/img/blog/mini/CiteGlass.jpg" alt="">
                     <p>Terre</p>
                 </picture>
             </figure>
@@ -87,9 +83,9 @@
         <article>
             <figure>
                 <picture>
-                    <source srcset="../space-travel/img/blog/alexey-pyatov-mary-celeste.jpg" media="(min-width:1024px)">
-                    <source srcset="../space-travel/img/blog/middle/CiteGlass.jpg" media="(min-width:768px)">
-                    <img src="../space-travel/img/blog/mini/embarquement.jpg" alt="">
+                    <source srcset="../spacetravel/img/blog/alexey-pyatov-mary-celeste.jpg" media="(min-width:1024px)">
+                    <source srcset="../spacetravel/img/blog/middle/CiteGlass.jpg" media="(min-width:768px)">
+                    <img src="../spacetravel/img/blog/mini/embarquement.jpg" alt="">
                     <p>Orion</p>
                 </picture>
             </figure>
@@ -97,8 +93,7 @@
     </section>
     </main>
     <footer> 
-        <p><a href="www.linkedin.com/in78600-benjamin-d">&copy - Benjamin D. - Octobre 2024
-        </a></p>
+        <a href="https://www.linkedin.com/in/78600-benjamin-d" target="_blank"><p>&copy - Benjamin D. - Octobre 2024</p></a>
     </footer>
     
 </body>

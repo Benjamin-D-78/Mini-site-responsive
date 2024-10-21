@@ -11,8 +11,11 @@ html,body{
     position: relative;
     width: 100%;
     height: 100%;}
+main:last-of-type{
+    padding-bottom: 3rem;}
 
-body{width: 100%;
+body{
+    width: 100%;
     height: 100%;}
 /* Fin de l'initialisation */
 
@@ -67,8 +70,7 @@ h1{
 section{
     width: 100%;
     display: flex;
-    flex-direction: column;
-padding-bottom: 3rem;}
+    flex-direction: column;}
 section article{
     width: calc(100% - .2rem)}
 section img{
@@ -97,7 +99,7 @@ footer a{
     color: white;}
 
 
-    /* ----------Medias queries---------- */
+    /* ----------Medias query---------- */
     /* NB : j'ai mis une deuxième taille intermédiaire à 1024px et non 1280px (DESKTOP) car je n'ai pas de visuel depuis mon ordinateur portable (sur lequel je travaille) autrement. */
     /* NB 2 : le changement d'images est bien entendu volontaire. */
 @media screen and (min-width:768px){
